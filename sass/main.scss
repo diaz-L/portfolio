@@ -1,0 +1,49 @@
+/*
+ *  COLORS
+ */
+
+$primary-color: #0061a3;
+$secondary-color: #399adb;
+$gray: #e8e8e8;
+$white: #fafafa;
+$black: #1d1d1f;
+
+
+/*
+ * MIXINS
+ */
+
+ @mixin boxshadow {
+     box-shadow: 1px 0 5px rgba($black, .2), -1px 0 5px rgba($black, .2);
+ }
+
+@import "layout/header";
+@import "layout/info";
+@import "layout/projects";
+@import "layout/contact";
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+     font: {
+        size: 62.5%;
+        family: 'Open Sans', Helvetica, Arial, sans-serif;
+    }
+}
+
+body {
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    @include boxshadow;
+}

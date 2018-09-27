@@ -1,0 +1,42 @@
+.contact {
+    h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 2rem 0 3rem;
+
+        &:before {
+            content: "";
+            display: block;
+            width: 4.5rem;
+            border: 1px solid $black;
+            position: relative;
+            left: 44%;
+        }
+    }
+    
+
+    p {
+        text-align: center;
+        font-size: 1.6rem;
+        padding: 1rem 0;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2rem;
+
+        a  {
+            display: block;
+            text-align: center;
+            font-size: 1.8rem;
+            padding: 0 .5rem;
+            color: $black;
+        }
+    }
+
+    footer {
+        text-align: center;
+        padding: 1.5rem 0 2rem;
+    }
+}
