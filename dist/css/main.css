@@ -96,6 +96,18 @@
   .info .skills i {
     display: inline-block;
     font-size: 10rem; }
+  .info .skills .bootstrap-icon {
+    color: #fff;
+    background-color: #1d1d1f;
+    border-radius: 1rem;
+    max-height: 9rem;
+    font-size: 8rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 0.5rem; }
 
 .projects {
   background: #0061a3;
